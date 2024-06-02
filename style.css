@@ -1,0 +1,40 @@
+.mybtnn {
+    padding: 2rem;
+    margin-top: 5rem;
+}
+.mybtn {
+    background: #482BE7;
+    border: 0px solid;
+    color: rgb(237,238,239);
+}
+.col-sm h1 {
+    color: #13055e;
+}
+.col-sm p{
+    color: rgb(199, 194, 194);
+}
+.row {
+    margin: 0 !important;
+}
+
+.myimg {
+    width: 75;
+}
+.hero-content {
+    margin-top: 40px;
+}
+@media screen and (max-width: 650px) {
+    .myimg {
+        width: 89%;
+        margin-top: 40px;
+    }
+    .mybtn {
+        width: 100%;
+    }
+    .myimg {
+        width: 100%;
+    }
+    .hero-content {
+        margin-top: 0 !important;
+    }
+}
